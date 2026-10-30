@@ -9,10 +9,18 @@ st.set_page_config(
 st.write("Selamat datang diberanda")
 st.write("Welcome to My Apps")
 
-st.page_link("Navigiation/Pages/Home.py",label="Lihat Home",icon = "🏡")
+st.page_link("pages/Home.py",
+        label = "Lihat Home",
+        icon = "🏡")
 
-st.page_link("Navigiation/Pages/Profil.py",label="Lihat Profile",icon = "👤")
+st.page_link("pages/Profil.py",
+        label = "Lihat Profile",
+        icon = "👤")
 
-st.page_link("Navigiation/Pages/Kemampuan.py",label="Lihat Kemampuan",icon = "💻")
+st.page_link("pages/Kemampuan.py",
+        label = "Lihat Kemampuan",
+        icon = "💻")
 
-st.page_link("Navigiation/Pages/Sosial_media.py",label="Lihat Sosial_media",icon = "📱")
+st.page_link("pages/Sosial_media.py",
+        label = "Lihat Sosial_media",
+        icon = "📱")
