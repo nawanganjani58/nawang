@@ -5,7 +5,7 @@ col1, col2, col3 = st.columns([1, 2, 3])
 
 with col1:
     st.image(
-        "pages/nawang.jpeg",
+        "nawang/pages/nawang.jpeg",
         caption="Foto Profil",
         use_container_width=True
     )
