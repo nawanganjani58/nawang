@@ -10,7 +10,7 @@ st.write("Selamat datang diberanda")
 st.write("Welcome to My Apps")
 
 st.page_link(
-    "Pages/app.py",
+    "Pages/Home.py",
     label = "Lihat Home",
     icon = "🏡")
 
